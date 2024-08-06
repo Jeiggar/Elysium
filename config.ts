@@ -11,8 +11,8 @@ export const window = {
 };
 
 export const api = {
-    ws: 'ws://launcher.elysiummc.ru/ws',
-    web: 'http://launcher.elysiummc.ru',
+    ws: 'ws://api.elysiummc.ru/ws',
+    web: 'http://api.elysiummc.ru',
     publicKey,
 };
 
