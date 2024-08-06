@@ -22,7 +22,7 @@ export const discordRPC = {
     appId: '1254462473835380776',
     default: {
         firstLineText: 'Присоединяйся к нам!',
-        secondLineText: '',
+        secondLineText: 'Выживание с модами',
         buttons: [
             {
                 label: 'Discord',
@@ -35,8 +35,8 @@ export const discordRPC = {
         smallImageText: '',
     },
     profile: {
-        firstLineText: 'Загружаю игровой клиент {server}',
-        secondLineText: '',
+        firstLineText: 'Присоединяйся к нам!',
+        secondLineText: 'Загружаю игровой клиент {server}',
         buttons: [
             {
                 label: 'Discord',
