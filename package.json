@@ -1,5 +1,5 @@
 {
-    "name": "aurora-launcher-app",
+    "name": "elysium-launcher-app",
     "version": "0.0.4",
     "description": "Launcher for Minecraft",
     "main": "build/main/index.js",
