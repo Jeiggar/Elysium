@@ -67,7 +67,7 @@ export default function Login() {
     return (
         <div className={classes.block}>
             <img src={logo} />
-            <div>Aurora Launcher</div>
+            <div>Elysium</div>
             <p>
                 Введите логин и пароль,
                 <br />

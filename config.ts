@@ -2,64 +2,64 @@ import publicKey from './public.pem?raw';
 
 export const window = {
     width: 900,
-    height: 550,
+    height: 600,
     frame: false,
     resizable: false,
     maximizable: false,
     fullscreenable: false,
-    title: 'Aurora Launcher',
+    title: 'Elysium Launcher',
 };
 
 export const api = {
-    ws: 'ws://127.0.0.1:1370/ws',
-    web: 'http://127.0.0.1:1370',
+    ws: 'ws://launcher.elysiummc.ru/ws',
+    web: 'http://launcher.elysiummc.ru',
     publicKey,
 };
 
-export const appPath = '.aurora-launcher';
+export const appPath = '.elysium-launcher';
 
 export const discordRPC = {
-    appId: '1214685301793103902',
+    appId: '1254462473835380776',
     default: {
-        firstLineText: 'Тестирую лаунчер',
-        secondLineText: 'Чувак, ты думал здесь что-то будет?',
+        firstLineText: 'Присоединяйся к нам!',
+        secondLineText: '',
         buttons: [
             {
-                label: 'Прекол',
-                url: 'https://youtu.be/dQw4w9WgXcQ',
+                label: 'Discord',
+                url: 'https://discord.gg/X3gqPTY4dQ',
             },
         ],
-        largeImageKey: 'logo',
-        smallImageKey: 'logo_mc',
-        largeImageText: 'Aurora Launcher',
-        smallImageText: 'Minecraft',
+        largeImageKey: 'icon',
+        smallImageKey: '',
+        largeImageText: 'Elysium Launcher',
+        smallImageText: '',
     },
     profile: {
-        firstLineText: 'Выбираю тестируемый профиль игры',
-        secondLineText: 'Загружаю {server}',
+        firstLineText: 'Загружаю игровой клиент {server}',
+        secondLineText: '',
         buttons: [
             {
-                label: 'Прекол',
-                url: 'https://youtu.be/dQw4w9WgXcQ',
+                label: 'Discord',
+                url: 'https://discord.gg/X3gqPTY4dQ',
             },
         ],
-        largeImageKey: 'logo',
-        smallImageKey: 'logo_mc',
-        largeImageText: 'Aurora Launcher',
-        smallImageText: 'Minecraft',
+        largeImageKey: 'icon',
+        smallImageKey: '',
+        largeImageText: 'Elysium Launcher',
+        smallImageText: '',
     },
     game: {
-        firstLineText: 'Играю на тестовом сервере',
-        secondLineText: 'Играю за {nickname}',
+        firstLineText: 'Играю на сервере',
+        secondLineText: 'Играю под ником {nickname}',
         buttons: [
             {
-                label: 'Прекол',
-                url: 'https://youtu.be/dQw4w9WgXcQ',
+                label: 'Discord',
+                url: 'https://discord.gg/X3gqPTY4dQ',
             },
         ],
-        largeImageKey: 'logo',
-        smallImageKey: 'logo_mc',
-        largeImageText: 'Aurora Launcher',
-        smallImageText: 'Minecraft',
+        largeImageKey: 'icon',
+        smallImageKey: '',
+        largeImageText: 'Elysium Launcher',
+        smallImageText: '',
     }
 };
