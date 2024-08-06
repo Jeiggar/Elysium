@@ -7,7 +7,7 @@ export const window = {
     resizable: false,
     maximizable: false,
     fullscreenable: false,
-    title: 'Aurora Launcher',
+    title: 'Elysium',
 };
 
 export const api = {
@@ -16,4 +16,4 @@ export const api = {
     // extraToken: token,
 };
 
-export const appPath = '.aurora-launcher';
+export const appPath = '.elysium-launcher';
